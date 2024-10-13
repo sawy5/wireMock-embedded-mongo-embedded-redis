@@ -31,31 +31,4 @@ public class DemoController {
     }
 
 
-
-
-
-
-
-
-
-    //    @GetMapping
-//    public ResponseEntity<List<CatFact>> getFacts() {
-//        return new ResponseEntity<>(demoService.getCatFacts(), HttpStatus.OK);
-//    }
-
-//    @GetMapping
-//    public ResponseEntity<List<CatFact>> getFacts() {
-//        try {
-//            List<CatFact> facts = demoService.getCatFacts();
-//            return new ResponseEntity<>(facts, HttpStatus.OK);
-//        } catch (HttpClientErrorException.NotFound e) {
-//            // Handle 404 Not Found
-//            return ResponseEntity.status(HttpStatus.NOT_FOUND)
-//                    .body(Collections.singletonList(new CatFact()));
-//        } catch (RuntimeException e) {
-//            // Log and handle other exceptions
-//            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-//                    .body(null);
-//        }
-//    }
 }
